@@ -34,11 +34,6 @@ TARGET_KERNEL_CONFIG := z2_plus_defconfig
 # Audio
 AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8996
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8996
-TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
